@@ -9,7 +9,7 @@ const flash = require('connect-flash');
 
 // Import Mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/db_staycation', {
+mongoose.connect('mongodb+srv://DenisSaepuloh:Degan_240298@cluster0.erxy8.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
